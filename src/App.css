@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #dbeafe);
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.app-container h2 {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #93c5fd;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f0f9ff;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.note {
+  background-color: #eff6ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.note h3 {
+  margin: 0;
+  color: #1d4ed8;
+}
+
+.note p {
+  margin-top: 5px;
+  color: #374151;
+}
+
+.note button {
+  background-color: transparent;
+  color: blue;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
